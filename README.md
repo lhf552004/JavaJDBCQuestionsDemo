@@ -143,16 +143,6 @@ The DatabaseMetaData interface returns the information of the database such as u
 ## Which interface is responsible for transaction management in JDBC?
 The Connection interface provides methods for transaction management such as commit(), rollback() etc.
 
-## What are the differences between stored procedure and functions?
-
-| Stored Procedure      | Function |
-| ----------- | ----------- |
-| Is used to perform business logic.      | Is used to perform the calculation.       |
-| Must not have the return type.   | Must have the return type.        |
-| May return 0 or more values.   | May return only one value.       |
-| The procedure supports input and output parameters.   | The function supports only input parameter.        |
-| can use try/catch block | cannot use try/catch block |
-
 ## What is the JDBC Rowset?
 DBC Rowset is the wrapper of ResultSet. 
 
